@@ -1,0 +1,40 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$Inter: 'Inter', sans-serif;
+
+//Colors
+$primary: #9BF00B;
+$dark: #0C0C0C;
+$gray: #777777;
+$gray-light: #C0C0C0;
+$light: #FFFFFF; 
+
+//CSS Reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-family: $Inter;
+    button{
+        cursor: pointer;
+    }
+}
+
+//Breakpoints
+$breakpoint-desktop: 1920px;
+$breakpoint-laptop-g: 1440px;
+$breakpoint-laptop-m: 1366px;
+$breakpoint-laptop-p: 1024px;
+$breakpoint-tablet: 768px;
+$breakpoint-phone-g: 425px;
+$breakpoint-phone-m: 375px;
+$breakpoint-phone-p: 320px;
+
+//Padrão de espaçamento
+$margin-lg: 20rem;
+$margin-md: 10rem;
+$margin-sm: 2rem;

@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 20rem;
+
+    @media only screen and(max-width: $breakpoint-laptop-m){ 
+        margin: 5rem 20rem;
+    }
+
+    @media only screen and(max-width: $breakpoint-phone-g){ 
+        margin: 1rem 2rem;
+    }
+
+    .copyright{
+        display: flex;
+        flex-wrap: wrap;
+
+        @media only screen and(max-width: $breakpoint-phone-g){ 
+            justify-content: flex-end;
+        }
+
+        p{
+            color: $gray;
+            margin: 0 1rem;
+        }
+    }
+}
