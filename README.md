@@ -9,7 +9,7 @@ Xbox Series X Pré Order
 
 > Codelandia Desafio 21 - Xbox 
 
-### [Ver Preview](https://guilhermesdb.github.io/Pre-Order-Xbox/)
+[Ver Preview](https://guilhermesdb.github.io/lp-pre-order-xbox)
 
 ## 👨🏻‍💻 Techs 
 
